@@ -5,7 +5,7 @@ import math
 import pyautogui
 
 
-# Open Camera
+# opens the camera
 capture = cv2.VideoCapture(0)
 
 while capture.isOpened():
